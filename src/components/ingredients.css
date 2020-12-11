@@ -1,0 +1,22 @@
+.ingredient-list{
+    width: 50%;
+    display: block flex;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top:5%;
+
+}
+
+.btn{
+    width: 100%;
+    color: white;
+    font-size: 20px;
+    margin: 1px;
+    transition-duration: 0.5s;
+    border: white;
+}
+
+.btn:hover{
+    font-size: 30px
+
+}

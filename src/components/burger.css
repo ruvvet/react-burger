@@ -1,0 +1,25 @@
+.burger-display{
+    width: 50%;
+    display: block flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top:5%;
+}
+
+.ingredients-display{
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+    display: block flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.x-btn{
+    margin-left: 10px;
+    color: white;
+    background: black;
+    border: none;
+}

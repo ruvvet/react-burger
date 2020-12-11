@@ -1,5 +1,34 @@
+body{
+  background: #121212;
+}
+
 .App {
   text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 0px 0px;
+  grid-template-areas: 'ingredients burger';
+  display: block flex;
+  justify-content: center;
+  align-items: center;
+margin: 0 auto;
+  background: white;
+  height: 50vh;
+  width: 50%;
+margin-top: 10%;
+}
+
+.ingredients {
+  grid-area: ingredients;
+  display: block flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+.burger {
+  grid-area: burger;
+  display: block flex;
+  justify-content: center;
 }
 
 .App-logo {
